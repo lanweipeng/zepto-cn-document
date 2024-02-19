@@ -1,6 +1,7 @@
 # zepto 中文文档
 
 [官方文档](https://zeptojs.com/)
+[中文文档](http://www.wenshuai.cn/Manual/Zepto/#live)
 
 Zepto 是一个面向现代浏览器的极简 JavaScript 库，其 API 基本上与 jQuery 兼容。如果你用过 jQuery，那你肯定也知道如何使用 Zepto。
 
