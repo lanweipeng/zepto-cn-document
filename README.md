@@ -94,6 +94,84 @@ Zepto 是浏览器扩展(Safari、 Chrome 和 Firefox)以及在本地应用框�
 - [pluck](pluck.md)
 - [position](position.md)
 - [prepend](prepend.md)
+- [prependTo](prependTo.md)
+- [prev](prev.md)
+- [prop](prop.md)
+- [push](push.md)
+- [ready](ready.md)
+- [reduce](reduce.md)
+- [remove](remove.md)
+- [removeAttr](removeAttr.md)
+- [removeClass](removeClass.md)
+- [removeProp](removeProp.md)
+- [replaceWith](replaceWith.md)
+- [scrollLeft](scrollLeft.md)
+- [scrollTop](scrollTop.md)
+- [show](show.md)
+- [siblings](siblings.md)
+- [size](size.md)
+- [slice](slice.md)
+- [text](text.md)
+- [toggle](toggle.md)
+- [toggleClass](toggleClass.md)
+- [unwrap](unwrap.md)
+- [val](val.md)
+- [width](width.md)
+- [wrap](wrap.md)
+- [wrapAll](wrapAll.md)
+- [wrapInner](wrapInner.md)
+
+## 检查方法
+“检测”模块有助于根据不同的环境对网站或应用程序进行微调，并帮助您区分手机和平板电脑，以及不同的浏览器引擎和操作系统版本。
+```js
+//如果应用以下布尔标志，则将其设置为 true,
+
+//如果没有，它们要么被设置为“ false”，要么被设置为“未定义”。
+
+//我们建议在访问它们时使用“ ! !”前缀以强制使用布尔值。
+
+// general device type
+$.os.phone
+$.os.tablet
+
+// specific OS
+$.os.ios
+$.os.android
+$.os.webos
+$.os.blackberry
+$.os.bb10
+$.os.rimtabletos
+
+// specific device type
+$.os.iphone
+$.os.ipad
+$.os.ipod // [v1.1]
+$.os.touchpad
+$.os.kindle
+
+// specific browser
+$.browser.chrome
+$.browser.firefox
+$.browser.safari // [v1.1]
+$.browser.webview // (iOS) [v1.1]
+$.browser.silk
+$.browser.playbook
+$.browser.ie // [v1.1]
+
+//另外，版本信息也是可用的。
+
+//下面是运行 iOS 6.1的 iPhone 的返回值。
+!!$.os.phone         // => true
+!!$.os.iphone        // => true
+!!$.os.ios           // => true
+$.os.version       // => "6.1"
+$.browser.version  // => "536.26"
+
+```
+- []()
+- []()
+- []()
+- []()
 - []()
 - []()
 - []()
